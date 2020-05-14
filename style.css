@@ -1,36 +1,27 @@
-.area {
-  width: 500px;
-  margin: auto;
-  flex-wrap: wrap;
-  display: flex;
+.tab-wrap {
+    display: flex;
+    flex-wrap: wrap;
 }
-
-.tab_class {
-  width: calc(100%/5);
-  height: 50px;
-  background-color: darkgrey;
-  line-height: 50px;
-  font-size: 15px;
-  text-align: center;
-  display: block;
-  float: left;
-  order: -1;
+.tab-label {
+    color: White;
+    background: LightGray;
+    margin-right: 5px;
+    padding: 3px 12px;
+    order: -1;
+    border-radius: 50px;
 }
-
-input[name="tab_name"] {
-  display: none;
+.tab-content {
+    width: 100%;
+    display: none;
 }
-
-input:checked + .tab_class {
-  background-color: cadetblue;
-  color: aliceblue;
+/* アクティブなタブ */
+.tab-switch:checked+.tab-label {
+    background: Purple;
 }
-
-.content_class {
-  display: none;
-  width: 100%;
+.tab-switch:checked+.tab-label+.tab-content {
+     display: block;
 }
-
-input:checked + .tab_class + .content_class {
-  display: block;
+/* ラジオボタン非表示 */
+.tab-switch {
+    display: none;
 }
