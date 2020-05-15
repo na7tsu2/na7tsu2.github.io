@@ -5,6 +5,7 @@
     flex-wrap: wrap;
 }
 .tab-label {
+    color: White;
     background: LightGray;
     margin-right: 5px;
     padding: 3px 12px;
@@ -23,9 +24,12 @@ a {
   text-decoration:none;
 }
 
-
 /* アクティブなタブ */
 .tab-switch:checked+.tab-label {
+    background: Purple;
+}
+
+.tab-switch:checked+.tab-label+.tab-content {
      display: block;
 }
 
