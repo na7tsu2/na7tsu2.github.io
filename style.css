@@ -14,25 +14,30 @@
     width: 100%;
     display: none;
 }
+
+/* 下線非表示 */
+a {
+text-decoration:none;
+}
+
+
 /* アクティブなタブ */
 .tab-switch:checked+.tab-label {
-    background: Purple;
-}
-.tab-switch:checked+.tab-label+.tab-content {
      display: block;
 }
+
 /* ラジオボタン非表示 */
 .tab-switch {
     display: none;
 }
 
 
-.box5 {
+.box1 {
     padding: 0.5em 1em;
     margin: 2em 0;
     border: double 5px #4ec4d3;
 }
-.box5 p {
+.box1 p {
     margin: 0;
     padding: 0;
 }
