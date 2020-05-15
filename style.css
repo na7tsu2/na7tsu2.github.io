@@ -1,26 +1,25 @@
+
 .tab-wrap {
+    font-family: 'Comic Sans MS',sans-serif;
     display: flex;
     flex-wrap: wrap;
 }
 .tab-label {
-    color: White;
     background: LightGray;
     margin-right: 5px;
     padding: 3px 12px;
     order: -1;
     border-radius: 50px;
+
 }
 .tab-content {
     width: 100%;
     display: none;
 }
 
-a:active{
-  color : black;
-}
-
 /* 下線非表示 */
 a {
+  color : black;
   text-decoration:none;
 }
 
@@ -41,6 +40,7 @@ padding-right: 20px;
 }
 
 .box1 {
+    font-family: 'Comic Sans MS',sans-serif;
     padding: 0.5em 1em;
     margin: 2em 0;
     border: double 5px #4ec4d3;
