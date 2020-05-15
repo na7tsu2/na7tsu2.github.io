@@ -15,9 +15,13 @@
     display: none;
 }
 
+a:active{
+  color : black;
+}
+
 /* 下線非表示 */
 a {
-text-decoration:none;
+  text-decoration:none;
 }
 
 
