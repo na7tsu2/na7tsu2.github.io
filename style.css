@@ -92,9 +92,9 @@ a {
 }
 
 /* アクティブなタブ */
-.tab-switch:checked+.tab-label {
+/*.tab-switch:checked+.tab-label {
     background: Purple;
-}
+}*/
 
 .tab-switch:checked+.tab-label+.tab-content {
      display: block;
